@@ -1,0 +1,71 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "uri": "https://sandboxapi.deere.com/platform/machines/384159/alerts?oauth_consumer_key=johndeere-JcFsHU6CV0klrsgkDHewTLuSAP1QZ2Q8Tx9sFCOs&oauth_token=d8d3c1b7-8f56-4cc3-96a6-0b6da898eea6&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1598359963&oauth_nonce=QTmpt7Wdt2f&oauth_version=1.0&oauth_signature=7/KsKhPCxEmlfG4YtFlEDk40rIw="
+        }
+    ],
+    "total": 1,
+    "values": [
+        {
+            "@type": "DiagnosticTroubleCodeAlert",
+            "duration": {
+                "@type": "measurementAsInteger",
+                "valueAsInteger": "278",
+                "unit": "Seconds"
+            },
+            "occurrences": "1",
+            "engineHours": {
+                "@type": "EngineHours",
+                "reading": {
+                    "@type": "measurementAsDouble",
+                    "valueAsDouble": 3516.35,
+                    "unit": "Hours"
+                }
+            },
+            "machineLinearTime": 212849248,
+            "bus": "0",
+            "definition": {
+                "@type": "DiagnosticTroubleCodeAlertDefinition",
+                "suspectParameterName": "523639",
+                "failureModeIndicator": "5",
+                "bus": "0",
+                "sourceAddress": "71",
+                "threeLetterAcronym": "FH1",
+                "id": "965459",
+                "description": "OTHER FH1 523639.05 Lighting System Fault - Turn ignition off and turn battery disconnect switch off. Check bulb and connector of the right brake light. If the error persists contact your John Deere dealer.",
+                "links": [
+                    {
+                        "@type": "Link",
+                        "rel": "self",
+                        "uri": "https://sandboxapi.deere.com/platform/api/alertTypes/diagnosticTroubleCodeAlert/definitions/965459"
+                    }
+                ]
+            },
+            "id": "2767899804",
+            "time": "2020-08-24T13:35:48.000Z",
+            "location": {
+                "@type": "Point",
+                "lat": -31.090694444444445,
+                "lon": -61.18361111111111
+            },
+            "color": "BLUE",
+            "severity": "INFO",
+            "acknowledgementStatus": "N",
+            "ignored": false,
+            "invisible": false,
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "machine",
+                    "uri": "https://sandboxapi.deere.com/platform/machines/384159"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "acknowledge",
+                    "uri": "https://sandboxapi.deere.com/platform/machines/384159/alerts/2767899804/diagnosticTroubleCodeAlert"
+                }
+            ]
+        }
+    ]
+}

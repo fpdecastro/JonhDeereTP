@@ -1,0 +1,291 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes?oauth_consumer_key=johndeere-JcFsHU6CV0klrsgkDHewTLuSAP1QZ2Q8Tx9sFCOs&oauth_token=d8d3c1b7-8f56-4cc3-96a6-0b6da898eea6&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1598322180&oauth_nonce=D9eEEf3TIee&oauth_version=1.0&oauth_signature=sYBjDvrtwP3CyLCtUHx88HxHOgI="
+        }
+    ],
+    "total": 5,
+    "values": [
+        {
+            "@type": "FieldOperationMeasurement",
+            "measurementName": "SeedingSpeedResult",
+            "measurementCategory": "Result",
+            "area": {
+                "@type": "EventMeasurement",
+                "value": 0.0,
+                "unitId": "ha"
+            },
+            "averageSpeed": {
+                "@type": "EventMeasurement",
+                "value": 5.731915148315647,
+                "unitId": "km1hr-1"
+            },
+            "varietyTotals": [],
+            "productTotals": [],
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingSpeedResult"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "mapImage",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingSpeedResult"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710/fields/53528f94-0000-1000-4059-e1e1e127d0a0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA"
+                }
+            ]
+        },
+        {
+            "@type": "FieldOperationMeasurement",
+            "measurementName": "SeedingVarietiesResult",
+            "measurementCategory": "Result",
+            "area": {
+                "@type": "EventMeasurement",
+                "value": 0.0,
+                "unitId": "ha"
+            },
+            "totalMaterial": {
+                "@type": "EventMeasurement",
+                "value": 435.0,
+                "unitId": "seeds"
+            },
+            "averageMaterial": {
+                "@type": "EventMeasurement",
+                "value": 350000.0,
+                "unitId": "seeds1ha-1"
+            },
+            "varietyTotals": [
+                {
+                    "@type": "VarietyTotal",
+                    "name": "5815",
+                    "area": {
+                        "@type": "EventMeasurement",
+                        "value": 0.0,
+                        "unitId": "ha"
+                    },
+                    "totalMaterial": {
+                        "@type": "EventMeasurement",
+                        "value": 435.0,
+                        "unitId": "seeds"
+                    },
+                    "averageMaterial": {
+                        "@type": "EventMeasurement",
+                        "value": 350000.0,
+                        "unitId": "seeds1ha-1"
+                    }
+                }
+            ],
+            "productTotals": [],
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingVarietiesResult"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "mapImage",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingVarietiesResult"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710/fields/53528f94-0000-1000-4059-e1e1e127d0a0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA"
+                }
+            ]
+        },
+        {
+            "@type": "FieldOperationMeasurement",
+            "measurementName": "SeedingRateResult",
+            "measurementCategory": "Result",
+            "area": {
+                "@type": "EventMeasurement",
+                "value": 0.0,
+                "unitId": "ha"
+            },
+            "totalMaterial": {
+                "@type": "EventMeasurement",
+                "value": 435.0,
+                "unitId": "seeds"
+            },
+            "averageMaterial": {
+                "@type": "EventMeasurement",
+                "value": 350000.0,
+                "unitId": "seeds1ha-1"
+            },
+            "varietyTotals": [
+                {
+                    "@type": "VarietyTotal",
+                    "name": "5815",
+                    "area": {
+                        "@type": "EventMeasurement",
+                        "value": 0.0,
+                        "unitId": "ha"
+                    },
+                    "totalMaterial": {
+                        "@type": "EventMeasurement",
+                        "value": 435.0,
+                        "unitId": "seeds"
+                    },
+                    "averageMaterial": {
+                        "@type": "EventMeasurement",
+                        "value": 350000.0,
+                        "unitId": "seeds1ha-1"
+                    }
+                }
+            ],
+            "productTotals": [],
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingRateResult"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "mapImage",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingRateResult"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710/fields/53528f94-0000-1000-4059-e1e1e127d0a0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA"
+                }
+            ]
+        },
+        {
+            "@type": "FieldOperationMeasurement",
+            "measurementName": "SeedingVarietiesTarget",
+            "measurementCategory": "Target",
+            "area": {
+                "@type": "EventMeasurement",
+                "value": 0.0,
+                "unitId": "ha"
+            },
+            "totalMaterial": {
+                "@type": "EventMeasurement",
+                "value": 951.0,
+                "unitId": "seeds"
+            },
+            "averageMaterial": {
+                "@type": "EventMeasurement",
+                "value": 383000.0,
+                "unitId": "seeds1ha-1"
+            },
+            "varietyTotals": [],
+            "productTotals": [],
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingVarietiesTarget"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "mapImage",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingVarietiesTarget"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710/fields/53528f94-0000-1000-4059-e1e1e127d0a0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA"
+                }
+            ]
+        },
+        {
+            "@type": "FieldOperationMeasurement",
+            "measurementName": "SeedingRateTarget",
+            "measurementCategory": "Target",
+            "area": {
+                "@type": "EventMeasurement",
+                "value": 0.0,
+                "unitId": "ha"
+            },
+            "totalMaterial": {
+                "@type": "EventMeasurement",
+                "value": 951.0,
+                "unitId": "seeds"
+            },
+            "averageMaterial": {
+                "@type": "EventMeasurement",
+                "value": 383000.0,
+                "unitId": "seeds1ha-1"
+            },
+            "varietyTotals": [],
+            "productTotals": [],
+            "links": [
+                {
+                    "@type": "Link",
+                    "rel": "self",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingRateTarget"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "mapImage",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA/measurementTypes/SeedingRateTarget"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "organization",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "field",
+                    "uri": "https://sandboxapi.deere.com/platform/organizations/430710/fields/53528f94-0000-1000-4059-e1e1e127d0a0"
+                },
+                {
+                    "@type": "Link",
+                    "rel": "fieldOperation",
+                    "uri": "https://sandboxapi.deere.com/platform/fieldOperations/NDMwNzEwXzVkY2VhNTE3M2EwMWQ1MGU2ODFkNTgzMA"
+                }
+            ]
+        }
+    ]
+}
